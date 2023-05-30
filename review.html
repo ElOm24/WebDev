@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="page_review/review_style_sheet.css">
+</head>
+
+<body>
+    <!--Header section start-->
+    <header>
+        <a href="#" class="logo">Anime<span>.</span> </a>
+
+        <nav>
+            <ul class="nav_links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="articles.html">Articles</a></li>
+                <li><a href="review.html">Review</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!--Header section end-->
+
+    <!--contact section start-->
+    <section class="contact" id="contact"> //add labels, action
+        <h1 class="heading"> <span> contact </span> us </h1>
+        <div class="row">
+            <form action="https://formsubmit.co/omurkulova.elina@gmail.com" method="POST">
+                <div class="radio_container">
+                    <input type="radio" name="gender" value="male" class="radio_btn"> Male
+                    <input type="radio" name="gender" value="female" class="radio_btn"> Female
+                    <input type="radio" name="gender" value="non-binary" class="radio_btn"> Non-binary
+                </div>
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <button type="submit" class="btn">Send</button>
+            </form>
+
+            <div class="image">
+                <img src="images_2/backg2.jpg" alt="image of nature">
+            </div>
+        </div>
+    </section>
+    <!--contact section end-->
+
+    <!--review section start-->
+    <section class="review" id="review">
+        <h1 class="heading">
+            reader's <span>review</span>
+        </h1>
+        <div class="box-container"> <!--Not right-->
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>"The personal blog 'Otaku's Corner' offers enthralling character analysis that captivates readers and
+                    adds a new layer of depth to their favorite anime."</p>
+                <div class="user">
+                    <img src="images_2/client2.jpg" alt="image of a reader who left the review">
+                    <div class="user-info">
+                        <h3>Clara</h3>
+                        <span>reader</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+
+            <div class="box">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>With thought-provoking insights and meticulous attention to detail, the character analysis articles
+                    on 'Otaku's Corner' provide a fascinating exploration of the complexities and development of anime
+                    characters.</p>
+                <div class="user">
+                    <img src="images_2/client1.jpg" alt="image of a reader who left the review">
+                    <div class="user-info">
+                        <h3>Carl</h3>
+                        <span>reader</span>
+                    </div>
+                </div>
+                <span class="fas fa-quote-right"></span>
+            </div>
+        </div>
+    </section>
+    <!--review section end-->
+</body>
+
+</html>
